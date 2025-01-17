@@ -41,7 +41,7 @@
   <script src="./static/js/index.js"></script>
 </head>
 <body>
-
+<!-- 
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -64,113 +64,112 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
-<section class="hero">
+<section class="hero is-medium" style="background: linear-gradient(135deg, #1a1a1a, #2d2d2d); padding: 4rem 1.5rem;">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Taming Teacher Forcing <p></p>for <p></p>Masked Autoregressive Video Generation</h1>
-          <div class="is-size-5 publication-authors">
-            <div class="author-list">
+          <!-- Title -->
+          <h1 class="title is-1 publication-title" style="font-size: 3.5rem; font-weight: 700; color: #ffffff; margin-bottom: 1.5rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            Taming Teacher Forcing<br>for<br>Masked Autoregressive Video Generation
+          </h1>
+
+          <!-- Authors -->
+          <div class="is-size-5 publication-authors" style="margin-top: 2rem;">
+            <div class="author-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
               <span class="author-block">
-                <a href="#">Deyu Zhou</a><sup>1</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Deyu Zhou</a><sup style="color: #48bb78;">1</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Quan Sun</a><sup>2</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Quan Sun</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Yuang Peng</a><sup>2,4</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Yuang Peng</a><sup style="color: #48bb78;">2,4</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Kun Yan</a><sup>2</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Kun Yan</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Runpei Dong</a><sup>3</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Runpei Dong</a><sup style="color: #48bb78;">3</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Duomin Wang</a><sup>2</sup>,
-              </span>
-              <p></p>
-              <span class="author-block">
-                <a href="#">Zheng Ge</a><sup>2</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Duomin Wang</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Nan Duan</a><sup>2</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Zheng Ge</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Xiangyu Zhang</a><sup>2</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Nan Duan</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Lionel M. Ni</a><sup>1</sup>,
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Xiangyu Zhang</a><sup style="color: #48bb78;">2</sup>,
               </span>
               <span class="author-block">
-                <a href="#">Heung-Yeung Shum</a><sup>5</sup>
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Lionel M. Ni</a><sup style="color: #48bb78;">1</sup>,
               </span>
-            </div>
-            
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>HKUST(GZ),</span>
-              <span class="author-block"><sup>2</sup>StepFun,</span>
-              <span class="author-block"><sup>3</sup>UIUC,</span>
-              <span class="author-block"><sup>4</sup>THU,</span>
-              <span class="author-block"><sup>5</sup>HKUST</span>
+              <span class="author-block">
+                <a href="#" style="color: #e0e0e0; text-decoration: none; font-weight: 500; transition: color 0.3s ease;" onmouseover="this.style.color='#ffffff';" onmouseout="this.style.color='#e0e0e0';">Heung-Yeung Shum</a><sup style="color: #48bb78;">5</sup>
+              </span>
             </div>
 
-          <div class="column has-text-centered">
+            <!-- Affiliations -->
+            <div class="is-size-5 publication-authors" style="margin-top: 1rem; color: #e0e0e0;">
+              <span class="author-block"><sup style="color: #48bb78;">1</sup>HKUST(GZ),</span>
+              <span class="author-block"><sup style="color: #48bb78;">2</sup>StepFun,</span>
+              <span class="author-block"><sup style="color: #48bb78;">3</sup>UIUC,</span>
+              <span class="author-block"><sup style="color: #48bb78;">4</sup>THU,</span>
+              <span class="author-block"><sup style="color: #48bb78;">5</sup>HKUST</span>
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div class="column has-text-centered" style="margin-top: 2rem;">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- PDF Link -->
               <span class="link-block">
                 <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded"
+                   style="background-color: #48bb78; color: #ffffff; border: none; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+                   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
               </span>
+
+              <!-- arXiv Link -->
               <span class="link-block">
                 <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded"
+                   style="background-color: #48bb78; color: #ffffff; border: none; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+                   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-              <!-- Code Link. -->
+
+              <!-- Code Link -->
               <span class="link-block">
                 <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded"
+                   style="background-color: #48bb78; color: #ffffff; border: none; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+                   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
             </div>
-
           </div>
         </div>
       </div>
@@ -179,182 +178,167 @@
 </section>
 
 
-<hr class="divider">  
-<section class="hero">
+<!-- <hr class="divider"> -->
+<section class="hero is-medium" style="background-color: #f8f9fa; padding: 4rem 1.5rem;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">How to archive frame-level autoregressive video generation?</h2>
-    <p>Our proposed model, MAGI, is trained to predict masked frames conditioned on complete history frames.</p>
-    <!-- <h2 class="title is-3">MAGI is all you need!</h2> -->
-    <!-- <h2 class="title is-3" >The proposed model, <b>MAGI</b>.</h2> -->
-    <div class="hero-body">
-      <!-- First teaser with image -->
-      <div class="teaser-item">
-        <img src="./static/images/model.png" alt="Diagram of the proposed MAGI model" class="teaser-image">
-        <!-- <h2 class="subtitle has-text-centered">
-          The proposed frame-level autoregressive video generation model, <b>MAGI</b>.
-        </h2> -->
-        
-      </div>
-    </div>
-  </div>
-</section>
-<hr class="divider">
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            We introduce MAGI, a hybrid video generation framework that combines masked modeling for intra-frame generation with causal modeling for next-frame generation. 
-          </p>
-          <p>
-            Our key innovation, Complete Teacher Forcing (CTF), conditions masked frames on complete observation frames rather than masked ones (namely Masked Teacher Forcing, MTF), enabling a smooth transition from token-level (patch-level) to frame-level autoregressive generation. 
-          <p>
-            CTF significantly outperforms MTF, achieving a <b>+23%</b> improvement in FVD scores on first-frame conditioned video prediction. To address issues like exposure bias, we employ targeted training strategies, setting a new benchmark in autoregressive video generation. Experiments show that MAGI can generate long, coherent video sequences exceeding 100 frames, even when trained on as few as 16 frames, highlighting its potential for scalable, high-quality video generation.
-          </p>
+    <div class="box" style="width: 100%; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <!-- Title and Description -->
+      <h2 class="title is-3 has-text-centered" style="font-size: 2.5rem; font-weight: 600; margin-bottom: 1.5rem;">
+        How to Achieve Frame-Level Autoregressive Video Generation?
+      </h2>
+      <p class="subtitle has-text-centered" style="font-size: 1.25rem; color: #4a5568; margin-bottom: 2rem;">
+        We introduce <b>MAGI</b>, a hybrid video generation framework that combines masked modeling for intra-frame generation with causal modeling for next-frame generation.
+      </p>
+
+      <!-- Hero Body with Image -->
+      <div class="hero-body" style="padding: 2rem;">
+        <div class="teaser-item has-text-centered">
+          <img 
+            src="./static/images/model.png" 
+            alt="Diagram of the proposed MAGI model" 
+            class="teaser-image" 
+            style="
+              max-width: 100%; 
+              height: auto; 
+              transition: transform 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.02)';"
+            onmouseout="this.style.transform='scale(1)';"
+          >
         </div>
       </div>
     </div>
   </div>
 </section>
-<hr class="divider">
-<!-- Second image as regular content -->
-<section class="section">
-  
+<!-- <hr class="divider"> -->
+<section class="section" style="background-color: #ffffff; padding: 2rem 0;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Smooth transistion from patch-level to frame-level AR</h2>
-    <p>Our proposed model, MAGI, inherits all the advantages of traditional patch-level autoregressive models</p>
-    <br>
-    <div class="content has-text-centered">
-      <img src="./static/images/diff.png" alt="Comparison of patch-level autoregressive models" class="content-image">
+    <div class="box" style="width: 100%; background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              We introduce MAGI, a hybrid video generation framework that combines masked modeling for intra-frame generation with causal modeling for next-frame generation.
+            </p>
+            <p>
+              Our key innovation, <b>Complete Teacher Forcing (CTF)</b>, conditions masked frames on complete observation frames rather than masked ones (namely <b>Masked Teacher Forcing, MTF</b>), enabling a smooth transition from token-level (patch-level) to frame-level autoregressive generation.
+            </p>
+            <p>
+              CTF significantly outperforms MTF, achieving a <b>+23%</b> improvement in FVD scores on first-frame conditioned video prediction. To address issues like exposure bias, we employ targeted training strategies, setting a new benchmark in autoregressive video generation. Experiments show that MAGI can generate long, coherent video sequences exceeding 100 frames, even when trained on as few as 16 frames, highlighting its potential for scalable, high-quality video generation.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<hr class="divider">
-<section class="section">
+<!-- 第一个 section -->
+<section class="section" style="background-color: #f8f9fa; padding: 2rem 0;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Key contribution: <b>Complete Teacher Forcing (CTF)</b></h2>
-      <p> MTF conditions predicted frames on masked history frames during training, which has a training-inference gap</p>
-      <p> CTF conditions predicted frames on complete history frames during training, which is the same as inference stage</p>
-    <br>
-    <div class="content has-text-centered">
-      <img src="./static/images/tf.png" alt="Explanation of Complete Teacher Forcing (CTF)" class="content-image">
+    <div class="box" style="background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <h2 class="title is-3 has-text-centered">Smooth Transition from Patch-Level to Frame-Level AR</h2>
+      <div class="content">
+        <p>Our proposed model, MAGI, inherits all the advantages of traditional patch-level autoregressive models.</p>
+      </div>
+      <div class="has-text-centered">
+        <div style="display: inline-block;">
+          <img 
+            src="./static/images/diff.png" 
+            alt="Comparison of patch-level autoregressive models" 
+            class="content-image" 
+            style="
+              max-width: 100%; 
+              height: auto; 
+              display: block; 
+              border-radius: 12px; 
+              box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 32px rgba(0, 0, 0, 0.2)';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 24px rgba(0, 0, 0, 0.1)';"
+          >
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<hr class="divider">
-<section class="section">
-  
+
+<!-- 第二个 section -->
+<section class="section" style="background-color: #ffffff; padding: 2rem 0;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Long video prediction</h2>
-    <h2><b>MAGI</b> is able to predict stable long videos more than 100 frames while trained on only 16 frames</h2>
-    <div class="columns is-centered">
-      
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3"></h2>
-
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/ctf_long_1_fix.mp4"
-                    type="video/mp4">
-          </video>
-
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/ctf_long_7_fix.mp4"
-                    type="video/mp4">
-          </video>
+    <div class="box" style="background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <h2 class="title is-3 has-text-centered">Key Contribution: <b>Complete Teacher Forcing (CTF)</b></h2>
+      <div class="content">
+        <p><b>Masked Teacher Forcing (MTF)</b> extends masked image generation to video prediction by using causal temporal attention but suffers from a training-inference gap due to high mask ratios during training.</p>
+        <p>To address this, we propose <b>Complete Teacher Forcing (CTF)</b>, which conditions on unmasked frames during training to predict masked frames, bridging the gap more effectively.</p>
+      </div>
+      <div class="has-text-centered">
+        <div style="display: inline-block;">
+          <img 
+            src="./static/images/tf.png" 
+            alt="Explanation of Complete Teacher Forcing (CTF)" 
+            class="content-image" 
+            style="
+              max-width: 100%; 
+              height: auto; 
+              display: block; 
+              border-radius: 12px; 
+              box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 32px rgba(0, 0, 0, 0.2)';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 24px rgba(0, 0, 0, 0.1)';"
+          >
         </div>
       </div>
-      <!--/ Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3"></h2>
+    </div>
+  </div>
+</section>
 
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/ctf_long_5_fix.mp4"
-                    type="video/mp4">
-          </video>
-
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/ctf_long_6_fix.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3"></h2>
-        <div class="columns is-centered">
-          <div class="column content">
-
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ctf_long_3_fix.mp4"
-                      type="video/mp4">
+<!-- <hr class="divider"> -->
+<section class="section" style="background-color: #f8f9fa; padding: 2rem 0;">
+  <div class="container is-max-desktop">
+    <div class="box" style="width: 100%; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <h2 class="title is-3 has-text-centered">Long Video Prediction</h2>
+      <h2 class="subtitle has-text-centered"><b>MAGI</b> is able to predict stable long videos with more than 100 frames while trained on only 16 frames.</h2>
+      <div class="columns is-centered">
+        <!-- Column 1 -->
+        <div class="column">
+          <div class="content">
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px; margin-bottom: 1rem;">
+              <source src="./static/videos/ctf_long_1_fix.mp4" type="video/mp4">
             </video>
-
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ctf_long_4_fix.mp4"
-                      type="video/mp4">
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+              <source src="./static/videos/ctf_long_7_fix.mp4" type="video/mp4">
             </video>
           </div>
-
+        </div>
+        <!-- Column 2 -->
+        <div class="column">
+          <div class="content">
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px; margin-bottom: 1rem;">
+              <source src="./static/videos/ctf_long_5_fix.mp4" type="video/mp4">
+            </video>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+              <source src="./static/videos/ctf_long_6_fix.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="column">
+          <div class="content">
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px; margin-bottom: 1rem;">
+              <source src="./static/videos/ctf_long_3_fix.mp4" type="video/mp4">
+            </video>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+              <source src="./static/videos/ctf_long_4_fix.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
-<!-- 
-    <section class="section">
-  
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Video prediction on kinetics-600 dataset</h2>
-        <div class="content has-text-centered">
-          <img src="./static/images/tab_2.png" alt="Video prediction on kinetics-600 dataset." class="content-image">
-
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="section">
-  
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Unconditional video generation on UCF-101 dataset</h2>
-        <div class="content has-text-centered">
-          <img src="./static/images/tab_3.png" alt="Unconditional video generation on UCF-101 dataset." class="content-image">
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
 
@@ -367,63 +351,65 @@
 
 
 
-<hr class="divider">
-<section class="section">
+<!-- <hr class="divider"> -->
+<section class="section" style="background-color: #ffffff; padding: 2rem 0;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Ablation study</h2>
+    <div class="box" style="width: 100%; background-color: #f8f9fa; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 2rem;">
+      <h2 class="title is-3 has-text-centered">Ablation Study</h2>
 
-    <!-- Row for CTF -->
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <p><b>MAGI</b> with CTF generates video with smooth motion</p>
-          <div class="columns is-centered">
-            <!-- Case 1 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/ctf_1_fix.mp4" type="video/mp4">
-              </video>
-            </div>
-            <!-- Case 2 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/ctf_3_fix.mp4" type="video/mp4">
-              </video>
-            </div>
-            <!-- Case 3 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/ctf_2_fix.mp4" type="video/mp4">
-              </video>
+      <!-- Row for CTF -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <p class="has-text-centered"><b>MAGI</b> with CTF generates video with smooth motion</p>
+            <div class="columns is-centered">
+              <!-- Case 1 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/ctf_1_fix.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- Case 2 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/ctf_3_fix.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- Case 3 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/ctf_2_fix.mp4" type="video/mp4">
+                </video>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Row for MTF -->
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <p><b>MAGI</b> with MTF generates video with poor coherency</p>
-          <div class="columns is-centered">
-            <!-- Case 1 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/mtf_1_fix.mp4" type="video/mp4">
-              </video>
-            </div>
-            <!-- Case 2 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/mtf_3_fix.mp4" type="video/mp4">
-              </video>
-            </div>
-            <!-- Case 3 -->
-            <div class="column">
-              <video autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/mtf_2_fix.mp4" type="video/mp4">
-              </video>
+      <!-- Row for MTF -->
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <p class="has-text-centered"><b>MAGI</b> with MTF generates video with poor coherency</p>
+            <div class="columns is-centered">
+              <!-- Case 1 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/mtf_1_fix.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- Case 2 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/mtf_3_fix.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- Case 3 -->
+              <div class="column">
+                <video autoplay controls muted loop playsinline height="100%" style="border-radius: 8px;">
+                  <source src="./static/videos/mtf_2_fix.mp4" type="video/mp4">
+                </video>
+              </div>
             </div>
           </div>
         </div>
@@ -431,7 +417,6 @@
     </div>
   </div>
 </section>
-
 
 
 <!-- <section class="section" id="BibTeX">
