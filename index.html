@@ -183,6 +183,7 @@
 <section class="hero">
   <div class="container is-max-desktop">
     <h2 class="title is-3">How to archive frame-level autoregressive video generation?</h2>
+    <p>Our proposed model, MAGI, is trained to predict masked frames conditioned on complete history frames.</p>
     <!-- <h2 class="title is-3">MAGI is all you need!</h2> -->
     <!-- <h2 class="title is-3" >The proposed model, <b>MAGI</b>.</h2> -->
     <div class="hero-body">
@@ -192,6 +193,7 @@
         <!-- <h2 class="subtitle has-text-centered">
           The proposed frame-level autoregressive video generation model, <b>MAGI</b>.
         </h2> -->
+        
       </div>
     </div>
   </div>
@@ -222,25 +224,23 @@
 <section class="section">
   
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Smooth transistion from patch-level to frame-level</h2>
+    <h2 class="title is-3">Smooth transistion from patch-level to frame-level AR</h2>
+    <p>Our proposed model, MAGI, inherits all the advantages of traditional patch-level autoregressive models</p>
+    <br>
     <div class="content has-text-centered">
       <img src="./static/images/diff.png" alt="Comparison of patch-level autoregressive models" class="content-image">
-      <p>
-        <!-- <b>MAGI</b> supports various advantages of patch-level (token-level) autoregressive models. -->
-      </p>
     </div>
   </div>
 </section>
 <hr class="divider">
 <section class="section">
-  
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Key contribution: <b>Complete Teacher Forcing (CTF)</h2>
+    <h2 class="title is-3">Key contribution: <b>Complete Teacher Forcing (CTF)</b></h2>
+      <p> MTF conditions predicted frames on masked history frames during training, which has a training-inference gap</p>
+      <p> CTF conditions predicted frames on complete history frames during training, which is the same as inference stage</p>
+    <br>
     <div class="content has-text-centered">
       <img src="./static/images/tf.png" alt="Explanation of Complete Teacher Forcing (CTF)" class="content-image">
-      <!-- <p> -->
-        <!-- The key contribution of <b>MAGI</b>: <b>Complete Teacher Forcing (CTF)</b>. -->
-      <!-- </p> -->
     </div>
   </div>
 </section>
@@ -376,7 +376,7 @@
     <div class="columns is-centered">
       <div class="column">
         <div class="content">
-          <p><b>MAGI</b> with CTF</p>
+          <p><b>MAGI</b> with CTF generates video with smooth motion</p>
           <div class="columns is-centered">
             <!-- Case 1 -->
             <div class="column">
@@ -405,7 +405,7 @@
     <div class="columns is-centered">
       <div class="column">
         <div class="content">
-          <p><b>MAGI</b> with MTF</p>
+          <p><b>MAGI</b> with MTF generates video with poor coherency</p>
           <div class="columns is-centered">
             <!-- Case 1 -->
             <div class="column">
